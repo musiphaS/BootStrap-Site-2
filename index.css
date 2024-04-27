@@ -7,6 +7,10 @@
   font-family: "Montse";
   src: url("/Montserrat-VariableFont_wght.ttf");
 }
+.fas {
+  font-size: 30px;
+}
+
 .navigation {
   display: flex;
   justify-content: space-between;
@@ -23,6 +27,11 @@
   font-weight: bold;
   font-family: "Montse";
   padding: 0 16px;
+  text-align: center;
+}
+
+.first-1 {
+  text-align: center;
 }
 
 .nav-bar a {
@@ -44,13 +53,16 @@
   margin-bottom: 8px;
   color: #fff;
   font-family: "Montse";
+  font-weight: 700;
 }
 .header .lines2 {
   color: white;
-  margin: 20px 0 24px;
+  margin: 10px 0 10px;
 }
 .header img {
   margin-bottom: 48px;
+  height: 260px;
+  width: 260px;
 }
 
 .headtext {
@@ -78,6 +90,11 @@ img {
 .portifolio-items h2 {
   font-size: 48px;
   font-family: "Montse";
+  font-weight: 700;
+}
+
+.img-grid {
+  border-radius: 7px;
 }
 
 .portfolio .lines2 .line-divide1 {
@@ -108,6 +125,14 @@ img {
   padding: 96px 0;
   background-color: #1bbc9b;
 }
+.about-1 p {
+  text-align: left;
+  padding: 33px;
+}
+
+.about-para {
+  line-height: 1.6;
+}
 
 .about {
   font-family: "Montse";
@@ -115,19 +140,19 @@ img {
 }
 .about h2 {
   font-size: 48px;
+  font-weight: 600;
 }
 .about .lines2 {
   color: white;
-  margin: 20px 0 24px;
-  font-size: 30px;
 }
 .about button {
-  font-size: 20;
-  padding: 16px 28px;
+  padding: 10px 20px;
   border: 2px solid #f8f9fa;
   border-radius: 8px;
   background-color: transparent;
   color: white;
+  position: relative;
+  top: 15px;
 }
 
 .about .lines2 .line-divide1 {
@@ -142,7 +167,6 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 30px 0;
   font-family: "Montse";
 }
 
@@ -156,6 +180,11 @@ img {
 
 .contact .lines2 .line-divide1 {
   background-color: #2d3e50;
+}
+
+.link i {
+  font-size: 16px;
+  margin-right: 8px;
 }
 
 .line-divide1 {
@@ -173,7 +202,7 @@ img {
 .contact h2 {
   font-size: 48px;
   margin-bottom: 8px;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 1.2;
   font-family: "Montse";
 }
@@ -195,17 +224,17 @@ img {
 }
 
 input[type=text], input[type=email], input[type=number], textarea[name=message] {
-  padding: 28px;
+  padding: 20px;
   width: 100%;
   border-top: none;
   border-left: none;
   border-right: none;
-  border-bottom: 1px solid #f8f9fa;
+  border-bottom: 4px solid #f8f9fa;
   color: #2d3e50;
 }
 
 .my-button {
-  padding: 16px 28px;
+  padding: 15px 22px;
   font-size: 20px;
   color: #fff;
   border: none;
@@ -213,7 +242,7 @@ input[type=text], input[type=email], input[type=number], textarea[name=message] 
   background-color: #1bbc9b;
   border-color: #1bbc9b;
   font-family: "Montse";
-  margin-top: 25px;
+  margin-top: 17px;
 }
 
 .button2 {
@@ -225,30 +254,30 @@ input[type=text], input[type=email], input[type=number], textarea[name=message] 
   color: white;
   padding: 80px 0;
 }
-.footer .h3-last {
-  font-family: "Montse";
-  margin-bottom: 8px;
-  padding: 0 24px;
-  font-size: 20px;
-}
 .footer i {
   border-radius: 50%;
   border: 1px solid white;
-  padding: 15px 14px;
+  padding: 15px 18px;
   margin: 3px;
   align-items: center;
-  height: 52px;
-  width: 52px;
+}
+
+.h3-last {
+  font-family: "Montse";
+  font-size: 25px;
 }
 
 .p-tag {
   font-size: 16px;
-  margin: 12px;
   font-family: "Montse";
 }
 
 .start1 {
   color: #1bbc9b;
+}
+
+.fab {
+  text-align: center;
 }
 
 .copyright-text {
@@ -367,72 +396,124 @@ ul li:hover {
   display: block;
 }
 
+.about button {
+  padding: 10px 15px;
+}
+
+.contact h2 {
+  font-size: 30px;
+}
+
+.dropdown-content a {
+  width: 348px;
+}
+
+.header-items {
+  width: 100%;
+}
+.header-items .header {
+  font-size: 30px;
+  margin: 0 0 8px;
+}
+.header-items .img1 {
+  margin-bottom: 48px;
+}
+
+.headtext {
+  font-size: 20px;
+  margin: 0 0 16px;
+}
+
+.img-grid {
+  width: 295px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.text {
+  margin-bottom: 30px;
+}
+
 @media (min-width: 576px) {
   #hamburger {
     display: none;
   }
 }
 @media only screen and (max-width: 576px) {
-  .portifolio-items h2 {
-    font-size: 30px;
+  .fas {
+    font-size: 16px;
   }
-  .my-button {
-    padding: 10px 20px;
+  input[type=text], input[type=email], input[type=number], textarea[name=message] {
+    padding: 5px;
   }
-  .about h2 {
-    font-size: 30px;
+  .about-1 p {
+    padding: 40px;
   }
-  .about button {
-    padding: 15px 18px;
+  img {
+    height: 190px;
   }
-  .contact h2 {
-    font-size: 30px;
-  }
-  .footer i {
-    padding: 10px;
-  }
-  .img-grid {
-    display: flex;
-    flex-direction: column;
-  }
-  .dropdown-content a {
-    width: 348px;
-  }
-  .navigation h1 {
-    font-size: 18px;
-    margin-right: 16px;
-    padding: 16px 0;
-  }
-  .navigation .nav-bar {
+  .nav-bar {
     display: none;
   }
-  .header-items {
-    width: 100%;
-  }
-  .header-items .header {
-    font-size: 30px;
-    margin: 0 0 8px;
-  }
-  .header-items .img1 {
+  .header img {
     margin-bottom: 48px;
+    height: 180px;
+    width: 180px;
   }
-  .headtext {
-    font-size: 17px;
-    margin: 0 0 16px;
+  .header .lines2 {
+    margin: 10px 0 10px;
+  }
+  .portifolio-items h2 {
+    font-size: 20px;
   }
   .img-grid {
-    width: 330px;
-    -o-object-fit: cover;
-       object-fit: cover;
+    width: 230px;
+  }
+  .portifolio-items {
+    padding: 40px 0;
+  }
+  .header-items .header {
+    font-size: 22px;
+  }
+  .headtext {
+    font-size: 14px;
+  }
+  .about-1 {
+    padding: 50px 0;
+  }
+  .my-button {
+    padding: 10px 15px;
+  }
+  .about h2 {
+    font-size: 20px;
+  }
+  .contact h2 {
+    font-size: 20px;
+  }
+  .contact {
+    margin: 40px 0;
+  }
+  .footer {
+    padding: 40px 0;
+  }
+  .h3-last {
+    font-size: 16px;
+  }
+  .p-tag {
+    font-size: 14px;
   }
 }
 @media only screen and (min-width: 577px) and (max-width: 768px) {
-  .gridpic {
-    display: flex;
-    flex-direction: column;
+  .img-grid {
+    width: 215px;
+    -o-object-fit: cover;
+    object-fit: cover;
   }
   img {
-    height: 16vh;
+    height: 220px;
+  }
+  .about-1 p {
+    padding: 6px;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1024px) {
