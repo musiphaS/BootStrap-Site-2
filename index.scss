@@ -14,7 +14,7 @@
 
 .navigation {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     font-weight: 700;
     background-color: #2d3e50;
@@ -24,11 +24,12 @@
     
      h1 {
         margin-top: 7px;
-        font-size: 16px;
+        font-size: 20px;
         font-weight: bold;
         font-family: "Montse";
         padding: 0 16px;
         text-align: center;
+        margin-right: 25px;
     }
 }
 .first-1 {
@@ -38,7 +39,7 @@
     color: white;
     text-decoration: none;
     // margin-left: 10px;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: bold;
     font-family: "Montse";
     // padding:  15px;
@@ -96,7 +97,7 @@ img{
 
 .portifolio-items {
     h2 {
-        font-size: 48px;
+        font-size: 40px;
         font-family: "Montse";
         font-weight: 700;
     }
@@ -151,7 +152,7 @@ img {
     color: white;
 
     h2{
-        font-size: 48px;
+        font-size: 40px;
         font-weight: 600;
     }
     .lines2 {
@@ -449,11 +450,11 @@ ul li:hover {
 
 
     .about button {
-        padding: 10px 15px;
+        padding: 5px 10px;
     }
 
     .contact h2 {
-        font-size: 30px;
+        font-size: 40px;
     }
 
     .dropdown-content a {
@@ -474,7 +475,7 @@ ul li:hover {
 
         // padding-top: 116px;
         .header {
-            font-size: 30px;
+            font-size: 45px;
             margin: 0 0 8px;
 
         }
@@ -489,11 +490,18 @@ ul li:hover {
     }
 
     .img-grid {
-        width: 295px;
+        width: 350px;
         object-fit: cover;
     }
     .text {
         margin-bottom: 30px;
+    }
+
+    .link {
+        button {
+            padding: 20px 30px;
+        }
+        
     }
 
     @media (min-width: 576px) {
@@ -602,5 +610,9 @@ ul li:hover {
 @media only screen and (min-width: 992px) and (max-width: 1024px) {
     img {
         height: 16vh;
+    }
+
+    .img-grid {
+        width: 300px;
     }
 }
