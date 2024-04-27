@@ -5,7 +5,7 @@
 
 @font-face {
   font-family: "Montse";
-  src: url("/Montserrat-VariableFont_wght.ttf");
+  src: url("Montserrat-VariableFont_wght.ttf");
 }
 .fas {
   font-size: 30px;
@@ -506,6 +506,9 @@ ul li:hover {
   }
   .p-tag {
     font-size: 14px;
+  }
+  .link button {
+    padding: 10px 15px;
   }
 }
 @media only screen and (min-width: 577px) and (max-width: 768px) {
