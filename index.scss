@@ -14,7 +14,7 @@
 
 .navigation {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     font-weight: 700;
     background-color: #2d3e50;
@@ -30,10 +30,14 @@
         font-size: 20px;
         font-weight: bold;
         font-family: "Montse";
-        padding: 0 16px;
+        // padding: 0 16px;
         text-align: center;
         margin-right: 25px;
     }
+}
+
+.nav-bar .list-item {
+    margin-right: 0px;
 }
 .nav-bar a {
     color: white;
@@ -43,7 +47,7 @@
     font-weight: bold;
     font-family: "Montse";
     // padding:  15px;
-    padding-right: 20px;
+    margin-right: 20px;
     // gap: 25px;
 }
 
@@ -104,7 +108,7 @@ img{
 }
 
 .img-grid {
-    border-radius: 7px;
+    border-radius: 4px;
 }
 
 .portfolio .lines2 .line-divide1 {
@@ -136,7 +140,7 @@ img {
 
     p{
         text-align: left;
-        padding: 33px;
+        margin-bottom: 30px;
     }
 }
 
@@ -345,12 +349,12 @@ ul {
 ul a {
     color: white;
     text-decoration: none;
-    margin-right: 40px;
+    // margin-right: 40px;
 }
 
 ul li {
     padding: 5px;
-    margin-left: 10px;
+    margin-right: 25px;
 }
 
 ul li:hover {
@@ -393,6 +397,7 @@ ul li:hover {
     background-color: #123E52;
     height: 91vh;
     margin-top: 16px;
+    font-family: "Montse";
 }
 
 .menu {
@@ -403,9 +408,6 @@ ul li:hover {
     width: 100%;
 }
 
-.menu li {
-    margin-bottom: 10px;
-}
 // dropdown menu start 
 .dropbtn {
     background-color: #1bbc9b;
@@ -528,9 +530,9 @@ ul li:hover {
         input[type=text], input[type=email], input[type=number], textarea[name=message] {
             padding: 5px;
         }
-        .about-1 p {
-            padding: 40px;
-        }
+        // .about-1 p {
+        //     padding: 40px;
+        // }
         img {
             height: 190px;
         }
