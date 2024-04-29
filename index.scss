@@ -135,12 +135,13 @@ img {
 }
 
 .about-1 {
-    padding: 96px 0;
+    padding: 65px 0;
     background-color: #1bbc9b;
 
     p{
         text-align: left;
         margin-bottom: 30px;
+        margin-top: 20px;
     }
 }
 
@@ -503,6 +504,8 @@ ul li:hover {
     .link {
         button {
             padding: 20px 30px;
+            position: relative;
+            top: 0px;
         }
         
     }
