@@ -5,7 +5,7 @@
 
 @font-face {
   font-family: "Montse";
-  src: url("Montserrat-VariableFont_wght.ttf");
+  src: url(Montserrat-VariableFont_wght.ttf);
 }
 .fas {
   font-size: 30px;
@@ -20,6 +20,15 @@
   color: white;
   height: 10vh;
   padding: 8px 16px;
+  position: sticky;
+  top: 0;
+  transition: background-color 0.4s ease-in-out;
+}
+
+.navigation.scrolled {
+  background-color: white;
+  opacity: 0.98;
+  color: #2d3e50;
 }
 
 .first-1 {
@@ -45,6 +54,10 @@
   font-weight: bold;
   font-family: "Montse";
   margin-right: 20px;
+}
+
+.navigation.scrolled nav a {
+  color: #2d3e50;
 }
 
 .header-items {
