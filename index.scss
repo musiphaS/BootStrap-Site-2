@@ -534,7 +534,6 @@ ul li:hover {
         //     display: flex;
         //     flex-direction: column;
         // }
-
         .first-1 h1 {
             font-size: 15px;
         }
@@ -638,5 +637,16 @@ ul li:hover {
 
     .img-grid {
         width: 300px;
+    }
+}
+
+@media only screen and (min-width: 1399.98px) {
+    .row {
+        padding: 0px 100px
+    }
+    .img-grid {
+        width: 350px;
+        height: 325px;
+        object-fit: cover;
     }
 }

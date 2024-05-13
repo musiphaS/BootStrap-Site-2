@@ -546,4 +546,15 @@ ul li:hover {
   .img-grid {
     width: 300px;
   }
+}
+@media only screen and (min-width: 1399.98px) {
+  .row {
+    padding: 0px 100px;
+  }
+  .img-grid {
+    width: 350px;
+    height: 325px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
 }/*# sourceMappingURL=index.css.map */
