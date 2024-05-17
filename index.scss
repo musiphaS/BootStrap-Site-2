@@ -619,7 +619,7 @@ ul li:hover {
 
 @media only screen and (min-width:577px) and (max-width:768px) {
     .img-grid {
-        width: 215px;
+        width: 255px;
         -o-object-fit: cover;
         object-fit: cover;
     }
@@ -640,6 +640,9 @@ ul li:hover {
     .img-grid {
         width: 300px;
     }
+}
+@media only screen and (min-width: 766.9px) and (max-width: 768px) {
+    
 }
 
 @media only screen and (min-width: 1399.98px) {
@@ -666,5 +669,11 @@ ul li:hover {
         background-color: #2d3e50;
         color: white;
         padding: 55px 0;
+    }
+    .img-grid {
+        width: 380px;
+        height: 361px;
+        -o-object-fit: cover;
+        object-fit: cover;
     }
 }
