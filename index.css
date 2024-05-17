@@ -9,6 +9,8 @@
 }
 .fas {
   font-size: 30px;
+  position: relative;
+  bottom: 4px;
 }
 
 .navigation {
@@ -487,7 +489,7 @@ ul li:hover {
     font-size: 20px;
   }
   .img-grid {
-    width: 230px;
+    width: 290px;
   }
   .portifolio-items {
     padding: 40px 0;
@@ -514,7 +516,7 @@ ul li:hover {
     margin: 40px 0;
   }
   .footer {
-    padding: 40px 0;
+    padding: 20px 0;
   }
   .h3-last {
     font-size: 16px;
@@ -549,12 +551,27 @@ ul li:hover {
 }
 @media only screen and (min-width: 1399.98px) {
   .row {
-    padding: 0px 100px;
+    padding: 0px 60px;
   }
   .img-grid {
     width: 350px;
     height: 325px;
     -o-object-fit: cover;
        object-fit: cover;
+  }
+  .footer {
+    background-color: #2d3e50;
+    color: white;
+    padding: 70px 0;
+  }
+}
+@media only screen and (min-width: 1500px) {
+  .row {
+    padding: 0px 50px;
+  }
+  .footer {
+    background-color: #2d3e50;
+    color: white;
+    padding: 55px 0;
   }
 }/*# sourceMappingURL=index.css.map */
